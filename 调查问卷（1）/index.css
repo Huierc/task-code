@@ -1,0 +1,67 @@
+#main{
+	width: 700px;
+	height:1110px;
+	margin: 0 auto;
+}
+#box{
+	background-color:#FDAD78 ;
+	width: 700px;
+	height: 756px;
+	margin-top: -10px;
+}
+#box .content{
+	background-color:white;
+	width: 620px;
+	height: 680px;
+	position:absolute;
+	top:390px;
+	left: 450px;
+}
+#box .content p{
+	margin-left: 20px;
+	font-family: "宋体";
+	font-size: 18px;
+	color: black;
+	font-weight: 600;
+}
+#box .content input{
+	margin-left: 35px;
+	font-size: 14px;
+}
+#textarea{
+	width: 350px;
+	height: 110px;
+	background-color:#FBF3CE;
+	border: none;
+	line-height: 20px;
+	margin-left: 30px;
+}
+#foot{
+	margin-left: 30px;
+	margin-top:20px;
+}
+#foot span{
+	color:black;
+	font-family: "宋体";
+	font-weight: 600;
+	font-size: 18px;
+}
+#foot input{
+	margin-top: 10px;
+	position: relative;
+	left: -40px;
+	width: 100px;
+}
+#foot .textfield{
+	position: relative;
+	left: -40px;
+}
+#select{
+	width: 50px;
+}
+#but{
+	background-color:#FDAD78 ;
+	border: none;
+	color: white;
+}
+

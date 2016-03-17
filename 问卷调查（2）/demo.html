@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>问卷调查</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="demo.css"/>
+	<body>
+		<div id="box">
+			<div class="top">
+				<span>全民健康调查问卷</span>
+			</div>
+			<div class="content">
+				<p>1)您平时是否关注健康，养生话题？</p>
+				<input type="radio" value="no" name="radio"/>不太关注
+				<input type="radio" value="yes" name="radio"/>一般
+				<input type="radio" value="good" name="radio"/>非常关注
+				<p>2)您的健康养生知识一般从哪些渠道获得？</p>
+				<input type="checkbox" value="tv" name="checkbox" />电视广播
+				<input type="checkbox" value="book" name="checkbox" />图书，报刊，杂志
+				<input type="checkbox" value="py" name="checkbox" />亲朋好友
+				<p>3)炎炎夏日，您一般采取什么方式解暑降温？</p>
+				<input type="radio" value="kon" name="radio"/>空调
+				<input type="radio" value="dfs" name="radio"/>电风扇
+				<input type="radio" value="sz" name="radio"/>扇子等传统方式
+				<p>4)您有吃早餐的习惯吗？</p>
+				<input type="radio" value="no" name="radio"/>基本不吃
+				<input type="radio" value="yes" name="radio"/>不是很固定，视情况而定
+				<input type="radio" value="good" name="radio"/>已有好习惯
+				<p>5)您在进行健康投资时，会考虑如下哪些方面？</p>
+				<input type="checkbox" value="yd" name="checkbox" />运动健身
+				<input type="checkbox" value="tj" name="checkbox" />定期体检
+				<input type="checkbox" value="bu" name="checkbox" />购买营养保健品
+				<input type="checkbox" value="buy" name="checkbox" />购买健康保险
+				<input type="checkbox" value="tq" name="checkbox" />听取健康讲座
+				<input type="checkbox" value="qt" name="checkbox" />其他
+			</div>
+			<div id="foot">
+				<span>填卷人资料</span><br/>
+				您的姓名：
+				<input type="text" name="textfield" id="field" value="" />
+				性别：
+				<select name="select" id="select">
+					<option value="男">男</option>
+					<option value="女">女</option>
+				</select>
+				<br/>
+				您的年龄：
+				<input type="text" name="textfield" id="textfield" value="" /><br/>
+				
+				文化程度：
+				<input type="text" name="textfield" id="textfield" value="" /><br/>
+				电子邮箱：
+				<input type="text" name="textfield" id="textfield" value="" /><br/>
+			</div>
+			<div id="button">
+				<input type="button" name="tijiao" id="tijiao" value="提交" />
+				<input type="button" name="tijiao" id="tijiao" value="重置" />
+			</div>
+		</div>
+	</body>
+</html>

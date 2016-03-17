@@ -1,0 +1,64 @@
+#box{
+	width: 600px;
+	height:660px;
+	margin: 0 auto;
+	background: url(bg.jpg) no-repeat;
+}
+#box .top span{
+	color: white;
+	font-size: 40px;
+	font-family: Georgia;
+	position: relative;
+	left: 150px;
+	top: 20px;
+}
+#box .content{
+	width: 500px;
+	height: 380px;
+	border: 2px solid #006DE8;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+	border-radius: 5%;
+	background: rgba(135,206,250,0.6);
+}
+#box .content p{
+	color:black;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: 20px;
+}
+#box .content input{
+	margin-left: 30px;
+	font-weight: 500;
+}
+#foot{
+	width: 270px;
+	height: 120px;
+	border:2px solid #006DE8;
+	position: relative;
+	top: 40px;
+	left: 290px;
+	border-radius: 5%;
+	background: rgba(135,206,250,0.6);
+}
+#foot span{
+	color:deeppink;
+	font-weight: 600;
+	margin-left: 80px;
+}
+#foot input{
+	width: 80px;
+}
+#button input{
+	margin-left: 10px;
+	position: relative;
+	top:45px;
+	left: 350px;
+	padding-left: 10px;
+	border-radius: 15%;
+	height: 25px;
+	background-color:#00FA9A;
+	border: none;
+}
