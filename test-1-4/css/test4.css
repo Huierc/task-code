@@ -1,0 +1,29 @@
+#main{
+	width: 400px;
+	height: 200px;
+	background: #CCC;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -110px;
+	overflow: hidden;
+}
+#main .left-t{
+	background:#ffcc00;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: -25px;
+	left: -25px;
+}
+#main .right-b{
+	background:#ffcc00;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: -25px;
+	right: -25px;
+}
